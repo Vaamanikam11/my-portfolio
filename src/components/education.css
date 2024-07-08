@@ -1,0 +1,90 @@
+/* src/components/Education.css */
+#education {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#education h1 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.education-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.education-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-top: 1rem;
+  width: 400px;  /* Adjusted width */
+  height: 350px;  /* Adjusted height */
+  margin: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;  /* Ensure content is contained within the card */
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+}
+
+.education-logo {
+  width: 100%;
+  height: 200px;  /* Adjusted height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 1.2rem;
+  padding-top: 2rem;
+  object-fit: contain;
+}
+
+.education-logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.education-info {
+  padding: 0.3rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education-info h3 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  text-align: center;  /* Center the text */
+}
+
+.education-info p {
+  color: #666;
+  font-size: 1rem;
+  text-align: center;  /* Center the text */
+}
+
+  
+  @media (max-width: 768px) {
+    .project {
+      width: calc(50% - 2rem);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .project {
+      width: 100%;
+    }
+  }

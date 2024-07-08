@@ -1,0 +1,73 @@
+/* src/components/WorkExperience.css */
+#work-experience {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#work-experience h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.experience-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.experience-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;  /* Adjusted width */
+  margin: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;  /* Ensure content is contained within the card */
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+}
+
+.experience-logo {
+  width: 100%;
+  height: 150px;  /* Increased height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+  object-fit: contain;
+}
+
+.experience-logo img {
+  max-width: 80%;  /* Adjusted max-width */
+  max-height: 80%;  /* Adjusted max-height */
+}
+
+.experience-info {
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience-info h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  text-align: center;  /* Center the text */
+}
+
+.experience-info p {
+  color: #666;
+  font-size: 1.1rem;
+  text-align: center;  /* Center the text */
+}
