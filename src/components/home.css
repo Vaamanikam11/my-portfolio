@@ -1,62 +1,52 @@
 .home {
   position: relative;
-  height: 100vh;
-  background: url('../Cover.png') no-repeat center center fixed;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #add8e6; /* Light blue background color */
+  background-image: url('../../src/Cover.png'); /* Ensure this path is correct */
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff; /* Ensure text is visible */
 }
 
 .home-overlay {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Optional: Add a dark overlay */
+  width: 100%;
+  height: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  /* background: rgba(0, 0, 0, 0); Remove any overlay color */
+  z-index: 1;
 }
 
 .tagline {
-  font-size: 1.5rem;
-  color: #61dafb;
+  font-size: 2rem;
+  color: #ffffff; /* Dark text color for visibility */
+  margin-bottom: 20px;
+  z-index: 2;
 }
 
 h1 {
   font-size: 3rem;
-  color: white;
+  /* color: #000; Dark text color for visibility */
+  z-index: 2;
 }
+
 
 .wrap {
-  display: inline-block;
-  padding-left: 10px;
-  animation: fadeIn 2s ease-in-out infinite;
+  color: #00aaff;
 }
 
-@keyframes fadeIn {
-  0%,
-  100% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
-button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 1rem;
-  color: white;
-  background-color: #61dafb;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-}
-
-button svg {
-  margin-left: 10px;
+img {
+  width: 100%;
+  z-index: 2;
 }
