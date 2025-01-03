@@ -28,7 +28,7 @@ const About = () => {
             <div className="section">
               <h3>Skills</h3>
               <ul>
-                <li>Programming Languages: C, C++, Python, SQL</li>
+                <li>Programming Languages: Python, C, C++, SQL, Swift</li>
                 <li>Web: HTML, CSS3, JavaScript, jQuery, Bootstrap, React, React Native</li>
                 <li>Analytics and ML: NumPy, Pandas, TensorFlow, Scikit-learn, Keras, Computer Vision, Generative AI, Artificial Intelligence, NLP, LLM</li>
               </ul>
