@@ -6,13 +6,13 @@ const educationData = [
     title: 'Master of Science in Computer Science',
     institution: 'Syracuse University',
     years: '2023 - 2025',
-    logo: 'assests/Syracuse-Orange-Logo-2006.png',  // Path to the SU logo image
+    logo: `${process.env.PUBLIC_URL}/assets/Syracuse-Orange-Logo-2006.png`, // Correct path to the SU logo image
   },
   {
     title: 'Bachelor of Engineering in Computer Engineering',
     institution: 'University of Mumbai',
     years: '2019 - 2023',
-    logo: 'assests/mumuni.png',  // Path to the University of Mumbai logo image
+    logo: `${process.env.PUBLIC_URL}/assets/mumuni.png`, // Correct path to the University of Mumbai logo image
   },
   // Add more education entries as needed
 ];

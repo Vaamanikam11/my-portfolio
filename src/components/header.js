@@ -17,7 +17,7 @@ const Header = () => {
         <a href="#home" onClick={toggleMenu}>Home</a>
         <a href="#about" onClick={toggleMenu}>About</a>
         <a href="#education" onClick={toggleMenu}>Education</a>
-        <a href="#experience" onClick={toggleMenu}>Experience</a>
+        <a href="#work-experience" onClick={toggleMenu}>Experience</a>
         {/* <a href="#projects" onClick={toggleMenu}>Projects</a> */}
         <a href="#certificates" onClick={toggleMenu}>Certifications</a>
         <a href="#contact" onClick={toggleMenu}>Contact</a>

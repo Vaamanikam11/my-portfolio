@@ -1,4 +1,3 @@
-// src/components/WorkExperience.js
 import React from 'react';
 import './experience.css';
 
@@ -7,27 +6,20 @@ const workExperiences = [
     title: 'Web Development Intern',
     company: 'EkakiVedam Organization',
     period: 'May 2022 - Feb 2023',
-    logo: 'assests/ekaki-logo.jpeg', // Adjust the path to your logo
+    logo: `${process.env.PUBLIC_URL}/assets/ekaki-logo.jpeg`, // Corrected path
   },
   {
     title: 'AI/ML Intern',
     company: 'Checkexplore Technologies',
     period: 'May 2022 - Oct 2022',
-    logo: 'assests/checkexplore-logo.png', // Adjust the path to your logo
+    logo: `${process.env.PUBLIC_URL}/assets/checkexplore-logo.png`, // Corrected path
   },
   {
     title: 'AI Intern',
     company: 'Axisvation Solutions',
     period: 'Jul 2021  - Sep 2021',
-    logo: 'assests/logo-axisvation.png', // Adjust the path to your logo
+    logo: `${process.env.PUBLIC_URL}/assets/logo-axisvation.png`, // Corrected path
   },
-  // {
-  //   title: 'Data Scientist',
-  //   company: 'U.S. Army',
-  //   period: 'June 2020 - August 2021',
-  //   logo: '/assets/us_army.png', // Adjust the path to your logo
-  // },
- 
 ];
 
 const WorkExperience = () => {

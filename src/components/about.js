@@ -7,7 +7,7 @@ const About = () => {
     <section id="about">
       <div className="about-container">
         <div className="about-image">
-          <img src="/assests/profile.jpg" alt="Profile" /> {/* Path relative to the public folder */}
+          <img src={`${process.env.PUBLIC_URL}/assets/profile.jpg`} alt="Profile" />
         </div>
         <div className="about-content">
           <h1 style={{ color: '#333' }}>About me</h1>
